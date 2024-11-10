@@ -1,0 +1,98 @@
+@media (prefers-reduced-motion:no-preference){
+    *{
+        scroll-behavior: smooth;
+    }
+}
+
+
+body{
+    font-family:helvetica, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1,  header p, h3, h4{
+    text-align: center;
+}
+
+header h1, header p{
+    margin: 10px auto 0 auto;
+    padding: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h4{
+    font-size: 17px;
+}
+
+div{
+    background-color: #d0d0d5;
+    padding:1rem;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+figure{
+    background-color: white;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    margin: 5px auto;
+    padding: 0;
+    display: block;
+    align-items: center;
+}
+
+figcaption{
+    margin: 5px auto;
+    text-align: center;
+}
+
+h3{
+    margin: 20px;
+}
+
+main{
+    padding-top:50px;
+}
+
+.timeline, .tribute-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.timeline ul, .tribute-info{
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline li{
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.timeline li::before{
+    content: "• ";;
+    font-weight: bold;
+    color: black;
+}
+
+.tribute-info{
+    font-style: italic;
+}
+
+a{
+    color: rgb(90, 17, 173);
+}
+
+a:hover{
+    cursor: pointer;
+}
